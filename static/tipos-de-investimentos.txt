@@ -1,0 +1,118 @@
+🏦 CDB (Certificado de Depósito Bancário)
+
+É um investimento oferecido por bancos.
+Você “empresta” seu dinheiro ao banco por um tempo, e ele te devolve com juros.
+💰 É seguro (garantido pelo FGC até R$ 250 mil) e ideal pra quem quer rendimento maior que a poupança.
+Existem três tipos:
+
+CDB pós-fixado: rende um percentual do CDI (ex: 110% do CDI).
+
+CDB prefixado: tem uma taxa fixa (ex: 12% ao ano).
+
+CDB IPCA+: rende o IPCA (inflação) + uma taxa fixa.
+
+💼 LCI (Letra de Crédito Imobiliário)
+
+Você empresta dinheiro ao setor imobiliário (financiamento de imóveis).
+O banco usa o dinheiro para financiar construtoras ou compradores e te devolve com juros.
+💡 Isenta de Imposto de Renda para pessoa física e também garantida pelo FGC. Boa pra quem quer segurança e rendimento líquido maior.
+
+🌾 CRA (Certificado de Recebíveis do Agronegócio)
+
+Você “empresta” dinheiro para empresas do agronegócio.
+Elas usam o capital pra financiar sua produção e te pagam com juros.
+📈 Tem rendimento alto, mas sem garantia do FGC. É mais indicado pra quem aceita um pouco mais de risco.
+
+🏠 CRI (Certificado de Recebíveis Imobiliários)
+
+Funciona como o CRA, mas voltado ao setor imobiliário.
+Você financia empreendimentos ou financiamentos de imóveis.
+📈 Pode render bem, mas não tem FGC — o risco é do tomador do crédito.
+
+💳 RDB (Recibo de Depósito Bancário)
+
+Parecido com o CDB, mas normalmente emitido por fintechs ou cooperativas.
+O dinheiro fica aplicado por um tempo e você recebe juros no resgate.
+💰 Também tem garantia do FGC, e é bom pra quem quer segurança e rendimento previsível.
+
+🧾 LF (Letra Financeira)
+
+É um título emitido por bancos grandes para captar valores maiores.
+Geralmente exige investimento mínimo alto e prazo mais longo, mas oferece rendimentos maiores.
+⚠️ Não tem liquidez diária — o dinheiro fica preso até o vencimento.
+
+🪙 LIG (Letra Imobiliária Garantida)
+
+Parecida com a LCI, mas com uma camada extra de segurança:
+o investidor tem duas garantias — a do emissor e a da carteira de créditos imobiliários.
+💡 Boa opção pra quem quer segurança e retorno de médio a longo prazo.
+
+📜 Debênture
+
+É um empréstimo direto para empresas (não bancos).
+Você recebe juros em troca, geralmente com rentabilidade superior à renda fixa tradicional.
+⚠️ Não tem FGC, então tem risco maior, mas pode render bem mais.
+Algumas (as “incentivadas”) não pagam imposto de renda.
+
+🇧🇷 Tesouro Direto
+
+Você empresta dinheiro para o Governo Federal.
+É um dos investimentos mais seguros do país, com diferentes tipos de rendimento (fixo, atrelado à inflação ou à taxa Selic).
+💰 Ideal pra quem quer segurança e simplicidade.
+
+🟩 Conservador
+
+Prioriza segurança e liquidez. Prefere ganhos menores, mas previsíveis.
+💰 Exemplos:
+
+Tesouro Selic
+
+CDB pós-fixado (CDI)
+
+LCI / LCA
+
+RDB
+
+🟨 Moderado
+
+Busca equilíbrio entre segurança e rentabilidade. Aceita um pouco de risco pra ganhar mais.
+💰 Exemplos:
+
+Tesouro IPCA+
+
+CDB IPCA+ ou prefixado
+
+LF (Letra Financeira)
+
+LIG
+
+Debênture incentivada
+
+🟥 Radical / Arrojado
+
+Quer rentabilidade alta e aceita oscilação e risco de perder parte do capital.
+💰 Exemplos:
+
+Debênture comum
+
+CRI
+
+CRA
+
+filtros por:
+
+título
+
+tipo 
+
+renda minima
+
+vencimento - meses/anos
+
+liquidez diaria - sim ou nao
+
+ordenar por quem rende mais ou menos
+
+
+
+

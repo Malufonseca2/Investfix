@@ -1,0 +1,21 @@
+resposta = f"""
+O investimento ideal para você é
+Com base nas informações que nos forneceu — investindo inicialmente R$ {inputs.get('valor_inicial')}, 
+com aplicações mensais de R$ {inputs.get('valor_mensal')}, em um prazo de {inputs.get('prazo')} meses 
+e objetivo de {inputs.get('objetivo')}, analisamos todas as opções de renda fixa disponíveis em nosso banco de dados.
+
+🔍 Após a análise, o investimento que melhor se adapta ao seu perfil é {melhor_investimento['titulo']}, 
+que oferece uma **taxa de {melhor_investimento['taxa']}% ao ano**, com vencimento em **{melhor_investimento['vencimento']}** 
+e **{('liquidez diária' if melhor_investimento['liquidez'] == 'Diária' else 'liquidez no vencimento')}**.
+
+💰 Esse investimento apresenta um excelente equilíbrio entre segurança e rentabilidade para o seu horizonte de tempo 
+e nível de liquidez desejado. Com seus aportes mensais, a projeção indica um montante aproximado de **R$ {valor_final_estimado:,.2f}** 
+ao fim do período.
+
+{ '✅ Como você marcou que precisa de liquidez diária, esta opção garante resgate fácil sem comprometer tanto a rentabilidade.' if inputs.get('liquidez_diaria') else '💡 Como você não precisa de liquidez diária, esta opção oferece uma taxa maior ao aceitar prazo de resgate mais longo.' }
+
+Recomendamos este investimento por se alinhar diretamente ao seu objetivo de **{inputs.get('objetivo')}**, 
+mantendo um bom equilíbrio entre retorno e segurança.
+
+Caso queira comparar com outras opções, podemos mostrar o rendimento estimado de CDBs, LCIs, LCAs e Tesouro Direto disponíveis.
+"""
