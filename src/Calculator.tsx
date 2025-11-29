@@ -147,7 +147,7 @@ export default function Calculator(){
         }
          
         const body = { ...formData }; 
-        axios.post('http://127.0.0.1:5000/calculate', {
+        axios.post('https://investfix-backend-dsy7.onrender.com/calculate', {
             body
         })
         .then(response => {setResposta(response.data); console.log(response.data, typeof response.data)})

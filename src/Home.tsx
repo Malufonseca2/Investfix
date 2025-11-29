@@ -1,11 +1,10 @@
 import {useEffect, useState, useRef} from 'react';
 import Grid from '@mui/material/Grid';
-import { color, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import {AppBar, Box, Button, Typography, Avatar, CssBaseline} from '@mui/material';
 import { ThemeProvider, createTheme } from '@mui/material/styles'
 import { useNavigate } from 'react-router-dom';
 import { QuemSomos } from './QuemSomos';
-import { fontWeight } from '@mui/system';
 
 export default function Home(){
     const navigate = useNavigate();

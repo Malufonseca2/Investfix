@@ -107,7 +107,7 @@ export default function Investimentos(){
     const navigate = useNavigate();
 
     useEffect(() => {
-        axios.get('http://127.0.0.1:5000/investments')
+        axios.get('https://investfix-backend-dsy7.onrender.com/investments')
             .then(response => {setResposta(response.data); setAllInvestments(response.data)})
     }, [])
     
@@ -118,7 +118,7 @@ export default function Investimentos(){
         valor_minimo: valorMinimoRef.current?.value || '',
         vencimento: vencimentoRef.current?.value || '',
     }
-        axios.post('http://127.0.0.1:5000/investments', {body: dados})
+        axios.post('https://investfix-backend-dsy7.onrender.com/investments', {body: dados})
             .then(response => {setResposta(response.data); console.log(resposta)})
         console.log(dados)
     };

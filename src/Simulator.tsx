@@ -125,7 +125,7 @@ export default function Simulator(){
     useEffect(() => {
         const todosPreenchidos = Object.values(usuario).every((valor) => valor !== "0" && valor !== "0,00" && valor !== '');
         if (todosPreenchidos === true) {
-            axios.post('http://127.0.0.1:5000/compare', {
+            axios.post('https://investfix-backend-dsy7.onrender.com/compare', {
             body: {
                 usuario: usuario,
                 investimentos: rendimentos

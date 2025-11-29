@@ -4,8 +4,6 @@ import Simulator from './Simulator';
 import Investimentos from './Investimentos';
 import { QuemSomos } from './QuemSomos';
 import Calculator from './Calculator';
- import Grid from '@mui/material/Grid';
-import TextField from '@mui/material/TextField';
 export default function App() {
   return (
     <>
