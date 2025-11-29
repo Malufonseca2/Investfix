@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Investfix/static/css/main.2e295610.css",
-    "main.js": "/Investfix/static/js/main.3a8e838c.js",
+    "main.js": "/Investfix/static/js/main.164a0e27.js",
     "static/js/453.6c25e13a.chunk.js": "/Investfix/static/js/453.6c25e13a.chunk.js",
     "static/media/roboto-latin-300-normal.woff2": "/Investfix/static/media/roboto-latin-300-normal.db56943a88e4852343ae.woff2",
     "static/media/roboto-latin-300-normal.woff": "/Investfix/static/media/roboto-latin-300-normal.9a99f41ee32d494e5d15.woff",
@@ -23,11 +23,11 @@
     "static/media/roboto-greek-ext-300-normal.woff": "/Investfix/static/media/roboto-greek-ext-300-normal.37b1aa837fdc41df2036.woff",
     "index.html": "/Investfix/index.html",
     "main.2e295610.css.map": "/Investfix/static/css/main.2e295610.css.map",
-    "main.3a8e838c.js.map": "/Investfix/static/js/main.3a8e838c.js.map",
+    "main.164a0e27.js.map": "/Investfix/static/js/main.164a0e27.js.map",
     "453.6c25e13a.chunk.js.map": "/Investfix/static/js/453.6c25e13a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e295610.css",
-    "static/js/main.3a8e838c.js"
+    "static/js/main.164a0e27.js"
   ]
 }
