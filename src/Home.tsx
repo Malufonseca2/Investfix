@@ -57,7 +57,6 @@ export default function Home(){
 
     return () => {
       if (boxRef.current) {
-        // eslint-disable-next-line react-hooks/exhaustive-deps
         observer.unobserve(boxRef.current);
       }
     };
@@ -69,7 +68,7 @@ export default function Home(){
         <CssBaseline />
          <AppBar sx={{backgroundColor: 'rgba(27, 33, 44, 1)', height: '90px', display: 'flex'}}>
           <Grid container gap={1} sx={{marginLeft: '40px', marginTop: '30px',}}>
-          <Box component="img" src="/static/investfix-logo.png" alt="Logo Investfix" sx={{width: '40px', height: '32px',}}/>
+          <Box component="img" src={process.env.PUBLIC_URL + "/static/investfix-logo.png"} alt="Logo Investfix" sx={{width: '40px', height: '32px',}}/>
           <Typography variant="body1" style={{ fontWeight: 'bold', fontSize: '23px', color: 'gold'}}> INVESTFIX</Typography>
           </Grid>
           <Grid container sx={{marginRight:'40px', marginTop: '-35px', }} justifyContent="flex-end" >
@@ -79,7 +78,7 @@ export default function Home(){
             <Button sx={{color: 'white', fontSize: '15px'}} onClick={() => navigate('/simulator')}>Simulador</Button>  
             <Button sx={{color: 'white', fontSize: '15px'}} onClick={() => navigate('/investimentos')}>Investimentos</Button>
             <Button sx={{color: 'white', fontSize: '15px'}} onClick={() => rolarParaSecao(quemSomosRef)}>Quem Somos</Button>
-            <Avatar alt="Nome do Usuário" src="/static/perfil-porquinho.png" sx={{ marginLeft: '30px'}}/>
+            <Avatar alt="Nome do Usuário" src={process.env.PUBLIC_URL + "/static/perfil-porquinho.png"} sx={{ marginLeft: '30px'}}/>
           </Grid>
         </AppBar>
 
